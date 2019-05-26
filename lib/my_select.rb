@@ -4,6 +4,7 @@ def my_select(collection)
   while i < collection.length
     if yield(collection[i])
       select << collection
+      
     end
     i+=1
   end
